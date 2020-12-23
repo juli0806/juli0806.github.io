@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://www.animationxpress.com/wp-content/uploads/2020/10/xPeanuts-Christmas.jpg.pagespeed.ic.-J5AeApWhn.jpg" />
+    <meta name="twitter:title" content="예지의 편지" />
+    <meta name="twitter:description" content="Feliz Navidad!" />
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020년을 보내며</title>
+
+    <link rel="shortcut icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61c280f0-6c35-4f2b-9ffb-f2a71f1c651e/db5b288-ad520cf7-1c70-4457-9bef-78483ecc0795.png/v1/fill/w_200,h_200,strp/snoopy_icon_by_bradsnoopy97_db5b288-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yMDAiLCJwYXRoIjoiXC9mXC82MWMyODBmMC02YzM1LTRmMmItOWZmYi1mMmE3MWYxYzY1MWVcL2RiNWIyODgtYWQ1MjBjZjctMWM3MC00NDU3LTliZWYtNzg0ODNlY2MwNzk1LnBuZyIsIndpZHRoIjoiPD0yMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.AmjMSbH4CeJ8cDXQ9fBrjx-ZuI_yO2NJp8LsqBPnDdo">
+
+    <meta property="og:image"
+        content="https://www.animationxpress.com/wp-content/uploads/2020/10/xPeanuts-Christmas.jpg.pagespeed.ic.-J5AeApWhn.jpg">
+    <meta property="og:title" content="예지의 카드">
+    <meta property="og:description" content="Feliz Navidad!">
+
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poor Story', cursive;
+        }
+
+        body {
+            background-color: #9b070f;
+        }
+
+        .rtan {
+            background-color: white;
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://www.lovethispic.com/uploaded_images/39061-Santa-Snoopy.gif?1');
+            background-size: cover;
+            background-position: center;
+
+            margin: 100px auto 0 auto;
+
+            border-radius: 100px;
+
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .envelope {
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://i.pinimg.com/originals/28/2b/af/282baf625f6362bc9eb2ab604c9ffdb2.png');
+            background-size: cover;
+            background-position: center;
+
+            margin: 200px auto 0 auto;
+
+            cursor: pointer;
+        }
+
+        .envelope-msg {
+            color: white;
+            text-align: center;
+
+        }
+
+        .letter-close {
+            display: block;
+
+        }
+
+        .letter-open {
+            display: none;
+        }
+
+        h1 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: white;
+            text-align: center;
+
+        }
+
+        .messagebox {
+            background-color: ivory;
+            width: 400px;
+            margin: auto;
+
+            color: brown;
+            padding: 30px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .from {
+            text-align: right;
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                padding: 20px;
+            }
+
+            .rtan {
+                width: 150px;
+                height: 150px;
+                margin: 70px auto 0 auto;
+
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .envelope {
+                margin: 150px auto 0 auto;
+            }
+        }
+    </style>
+
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+
+        function go_rant() {
+            alert('앗, 어떻게 찾았지?');
+            window.location.href = 'https://spartacodingclub.kr?f_name=%EC%9D%B4%EC%98%88%EC%A7%80&f_uid=5fdac45153af4580c12b8338'
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">스누피를 눌러봐!</h2>
+    </div>
+
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rant()"></div>
+        <h1>2020년 수고많았어!!</h1>
+        <div class="messagebox">
+            친구들에게. <br />
+            <p class=letter>
+                모두 힘들었을 올해가 <br />
+                드디어 마무리되고 있네 <br />
+                다들 너무너무 수고많았어! <br />
+                즐거운 연말, 행복한 2021 보내기를 항상 기도할게! <br /> </p>
+            <p class=from>사랑을 담아<br />2020월 12월에 예지가</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
